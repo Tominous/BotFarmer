@@ -106,7 +106,7 @@ module.exports = class Functions {
       
       
       
-              /*
+              
                   channel.send('owo balance')
       
                   let responseBal = await channel.awaitMessages(res => res.author.id === "408785106942164992", {
@@ -117,7 +117,7 @@ module.exports = class Functions {
                   if(!responseBal.size) return;
       
                   let balance = removeLetters(responseBal.first().content.split(",")[1])
-                  */
+                  
                  sleep(Math.random() * (2000 - 1000) + 1000)
                 
             
